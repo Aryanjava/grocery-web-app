@@ -16,7 +16,7 @@ const productSchema = mongoose.Schema({
   price: {
     type: Number,
     required: [true, "Please Enter product Price"],
-    maxLength: [7, "Price cannot exceed 7 characters"],
+    maxLength: [7, "Price cannot exceed  characters"],
   },
   ratings: {
     type: Number,
@@ -70,11 +70,11 @@ const productSchema = mongoose.Schema({
     },
   ],
 
-  user: {
-    type: mongoose.Schema.ObjectId,
-    ref: "User",
-    required: true,
-  },
+  // user: {
+  //   type: mongoose.Schema.ObjectId,
+  //   ref: "User",
+  //   required: true,
+  // },
   createdAt: {
     type: Date,
     default: Date.now,
