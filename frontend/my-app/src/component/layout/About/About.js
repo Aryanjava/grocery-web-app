@@ -26,8 +26,7 @@ const About = () => {
               Visit Instagram
             </Button>
             <span>
-              This is a college project made by Aryan Pandey ,Mahalingesh , Manikanth
-              and Ravi . This MERN based project .
+              This project is using MERN stack created by Aryan Pandey.
             </span>
           </div>
           <div className="aboutSectionContainer2">
